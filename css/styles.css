@@ -6,11 +6,7 @@ Primary Color (Purple): #357b70;
 Secondary Color (Orange): #e0b354;
 
 */
-
-
 /*HEAD*/
-
-
 :root {
   --primary-color: #357b70;
   --secondary-color: #e0b354;
@@ -19,17 +15,8 @@ Secondary Color (Orange): #e0b354;
   --grid-color: LightGrey;
   --font-size: 16px;
   --font-weight: 700;
-  --font-family: 'Dosis', sans-serif;
+  --font-family: "Dosis", sans-serif;
   --line-height: 1.6;
-}
-
-%box-shared {
-  margin:auto;
-  text-align:center;
-  border: 1px solid black;
-  padding: 150px 150px;
-  max-width: 900px;
-  min-height: 550px
 }
 
 a {
@@ -39,8 +26,6 @@ a {
 * {
   box-sizing: border-box;
 }
-
-
 
 .page-header {
   display: flex;
@@ -58,9 +43,6 @@ a {
   text-align: right;
 }
 
-
-
-
 .button, button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -69,7 +51,7 @@ a {
   font-family: inherit;
   /* styles the button */
   background-color: var(--primary-color);
-  color:var(--text-color);
+  color: var(--text-color);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -99,7 +81,6 @@ button:focus,
 }
 
 /* BODY */
-
 body {
   font-family: var(--font-family);
   font-weight: var(--font-weight);
@@ -107,10 +88,6 @@ body {
   font-variant: small-caps;
   line-height: var(--line-height);
 }
-
-
-
-
 
 .profile__portrait {
   float: left;
@@ -120,7 +97,7 @@ body {
   border-radius: 50%;
 }
 
-.profile, .about{
+.profile, .about {
   max-width: 900px;
   min-height: 550px;
   margin: 0 auto;
@@ -129,20 +106,15 @@ body {
   text-align: center;
 }
 
-
 .profile__text {
-    flex: 1 1 100px;
+  flex: 1 1 100px;
 }
-
-
 
 .grid__item {
   display: inline-block;
   width: 33%;
   background-color: var(--grid-color);
-
 }
-
 
 .grid {
   display: grid;
@@ -161,10 +133,8 @@ section {
   padding: 0px 100px;
 }
 
-
-
 .table {
-  margin:auto;
+  margin: auto;
 }
 
 .work {
@@ -175,35 +145,36 @@ section {
   text-align: right;
 }
 
-
 @keyframes example {
-  from {fill: #EDC655;}
-  to {fill: red;}
+  from {
+    fill: #EDC655;
+  }
+  to {
+    fill: red;
+  }
 }
-
 .sun {
   animation-name: example;
-  animation-duration: 4s;}
-
-
+  animation-duration: 4s;
+}
 
 /* FOOTER */
-
 .page-footer {
   clear: both;
 }
 
 .page-footer {
-    clear: both;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media all and (max-width: 600px) {
   .grid {
     grid-template-columns: 1fr;
   }
+
   .about {
     position: relative;
     left: 100px;
@@ -214,7 +185,7 @@ section {
     left: 100px;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -223,10 +194,12 @@ section {
   .grid {
     grid-gap: 10px;
   }
+
   .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
+    grid-column: auto/auto;
+    grid-row: auto/auto;
   }
+
   h1 {
     font-size: 22px;
   }
