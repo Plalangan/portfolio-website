@@ -1,0 +1,11 @@
+Text Editor - Atom
+
+Linters Installed:
+
+linter
+linter-csslint
+linter-eslint
+linter-htmlhint
+linter-stylelint
+linter-ui-default
+W3C-Validation

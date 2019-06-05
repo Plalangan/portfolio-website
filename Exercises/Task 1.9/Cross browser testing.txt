@@ -1,0 +1,6 @@
+Safari- Looks great
+IE Edge- Looks Great, Animation slow to load for first time
+Chrome - Looks Great
+Firefox - Looks Great
+
+Mobile Safari on Iphone X - Layout is messy, boxes do not match with content and are out of line. Need to fix media queries for mobile devices.

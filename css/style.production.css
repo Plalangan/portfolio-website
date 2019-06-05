@@ -160,23 +160,6 @@ section {
   text-align: right;
 }
 
-@-webkit-keyframes example {
-  from {
-    fill: #EDC655;
-  }
-  to {
-    fill: red;
-  }
-}
-
-@keyframes example {
-  from {
-    fill: #EDC655;
-  }
-  to {
-    fill: red;
-  }
-}
 .sun {
   -webkit-animation-name: example;
           animation-name: example;

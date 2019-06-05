@@ -144,15 +144,8 @@ section {
 .codelink {
   text-align: right;
 }
-
-@keyframes example {
-  from {
-    fill: #EDC655;
-  }
-  to {
-    fill: red;
-  }
 }
+
 .sun {
   animation-name: example;
   animation-duration: 4s;
